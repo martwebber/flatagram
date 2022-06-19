@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Woofing those bugs away",
-      "likes": 42,
+      "likes": 50,
       "image": "./assets/coder-dog.png"
     }
   ],
@@ -22,6 +22,166 @@
       "id": 3,
       "imageId": 1,
       "content": "Woof!"
+    },
+    {
+      "imageId": 1,
+      "content": "huhkjn",
+      "id": 4
+    },
+    {
+      "imageId": 1,
+      "content": "huhkjn",
+      "id": 5
+    },
+    {
+      "imageId": 1,
+      "content": "huhkjn",
+      "id": 6
+    },
+    {
+      "imageId": 1,
+      "content": "hello",
+      "id": 7
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 8
+    },
+    {
+      "imageId": 1,
+      "content": "huhkjn",
+      "id": 9
+    },
+    {
+      "imageId": 1,
+      "content": "hello",
+      "id": 10
+    },
+    {
+      "imageId": 1,
+      "content": "new comment",
+      "id": 11
+    },
+    {
+      "imageId": 1,
+      "content": "new comment",
+      "id": 12
+    },
+    {
+      "imageId": 1,
+      "content": "new comment",
+      "id": 13
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 14
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthnhhhhhh",
+      "id": 15
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthnhhhhhh",
+      "id": 16
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthnhhhhhh",
+      "id": 17
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 18
+    },
+    {
+      "imageId": 1,
+      "content": "new comment",
+      "id": 19
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 20
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 21
+    },
+    {
+      "imageId": 1,
+      "content": "new comment",
+      "id": 22
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 23
+    },
+    {
+      "imageId": 1,
+      "content": "new comment",
+      "id": 24
+    },
+    {
+      "imageId": 1,
+      "content": "new comment 45678",
+      "id": 25
+    },
+    {
+      "imageId": 1,
+      "content": "",
+      "id": 26
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 27
+    },
+    {
+      "imageId": 1,
+      "content": "new comment fthn",
+      "id": 28
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 29
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 30
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 31
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 32
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 33
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 34
+    },
+    {
+      "imageId": 1,
+      "content": "hi",
+      "id": 35
     }
   ]
 }

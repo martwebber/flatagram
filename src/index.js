@@ -9,10 +9,26 @@ const handleLike = e => {
   addlike(imageObj)                      
   }
 
+const handleComment = e => {
+    e.preventDefault();
+    const image = document.querySelector('#image-card')
+    let commentObj = {
+      imageId: image.id,
+      content: e.target.comment.value
+    }
+  addComment(commentObj)
+}
+
 const getImage = () =>{
     fetch('http://localhost:3000/images/1')
     .then(response => response.json())
     .then(result => addImageContent(result))
+}
+
+const getComments = () =>{
+  fetch('http://localhost:3000/comments')
+  .then(response => response.json())
+  .then(result => renderComments(result))
 }
 
 const addImageContent = imageObj => {
@@ -57,6 +73,30 @@ const addImageContent = imageObj => {
     })
 }
 
+const renderComments = comments => {
+  const commentsList = document.querySelector('ul#comments-list')
+  comments.forEach(comment =>{
+    const li = document.createElement('li')
+    li.textContent = comment.content
+    console.log(li)
+    li.style.paddingTop ='5px'
+    li.style.paddingBottom ='5px'
+    commentsList.appendChild(li)
+  })
+
+  const form = document.querySelector('#comment-form')
+  form.addEventListener('submit', e =>{
+    e.preventDefault();
+    const li = document.createElement('li')
+    const comment = document.querySelector('#comment').value
+    li.textContent = comment
+    console.log(li)                  
+    li.style.paddingTop ='5px'
+    li.style.paddingBottom ='5px'
+    commentsList.appendChild(li)
+  })
+
+}
 
 const addlike = imageObj => {
   fetch('http://localhost:3000/images/1',{
@@ -72,4 +112,5 @@ const addlike = imageObj => {
 
 const init = document.addEventListener('DOMContentLoaded',(e) => {
     getImage()
+    getComments()
 })
